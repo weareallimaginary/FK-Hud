@@ -1,75 +1,41 @@
 "Resource/UI/HudItemEffectMeter.res"
 {
+	
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-25"	[$WIN32]
-		"ypos"			"r111"	[$WIN32]
-		"wide"			"50"
-		"tall"			"50"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
+		"visible"	"1"	"enabled"	"1"
+		"xpos"	"c-120"	"ypos"	"0"		"wide"	"f0"	"tall"	"f0"
+		"MeterFG"	"255 255 255 210"	"MeterBG"	"22 22 22 140"
 	}
 	
-	"ItemEffectMeterBG"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ItemEffectMeterBG"
-		"xpos"					"0"
-		"ypos"					"28"
-		"zpos"					"12"
-		"wide"					"50"
-		"tall"			"7"
-		"visible"		"1"
-		"border"				"sborder2"
-		"enabled"		"1"
-		"fillcolor"		"blank"			
-	}
-	
-	"ItemEffectMeterLabel"
-	{
-		"ControlName"			"CExLabel"
-		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"0"
-		"ypos"					"16"
-		"zpos"					"12"
-		"wide"					"50"
-		"tall"					"15"
-		"autoResize"			"1"
-		"pinCorner"				"2"
-		"visible"				"1"
-		"fgcolor_override"		"255 255 255 210"
-		"enabled"				"1"
-		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
-		"textAlignment"			"center"
-		"dulltext"				"0"
-		"brighttext"			"0"
-		"font"					"roboto8bold"
-	}
+	"ItemEffectMeterLabel"	{	"ControlName"	"CExLabel"	"fieldName"	"ItemEffectMeterLabel"	"visible"	"0"	}
 
 	"ItemEffectMeter"
 	{	
-		"ControlName"			"ContinuousProgressBar"
-		"fieldName"				"ItemEffectMeter"
-		"font"					"Default"
-		"xpos"					"0"
-		"ypos"					"28"
-		"zpos"					"2"
-		"wide"					"50"
-		"tall"					"7"				
-		"autoResize"			"0"
-		"pinCorner"				"0"
-		"visible"				"1"
-		"alpha"				"180"
-		"enabled"				"1"
-		"border"				"noborder"
-		"FGcolor_override"		"115 215 215 210"
-		"BGcolor_override"		"22 22 22 140"
-		"textAlignment"			"Left"
-		"dulltext"				"0"
-		"brighttext"			"0"
-	}					
+		"ControlName"	"ContinuousProgressBar"	"fieldName"	"ItemEffectMeter"
+		"xpos"	"145"	"ypos"	"r16"	"zpos"	"2"	"wide"	"35"	"tall"	"7"	"textAlignment"	"Left"		
+		"visible"	"1"	"enabled"	"1"	"proportionaltoparent"	"1"
+		"border"	"noborder"
+		"FGcolor_override"	"255 255 255 255"	"BGcolor_override"	"22 22 22 140"	"alpha"	"180"
+	}				
+
+	"ArmorImage"
+	{
+		"ControlName"	"ImagePanel"	"fieldName"		"ArmorImage"
+		"xpos"	"5"	"ypos"	"2"	"zpos"	"2"	"wide"	"11"	"tall"	"11"
+		"visible"	"1"	"enabled"	"1"	"image"	"replay/thumbnails/armor"	"scaleImage"	"1"	
+		"alpha"	"180"
+		"pin_to_sibling"	"ItemEffectMeter"	"pin_corner_to_sibling"	"PIN_TOPRIGHT"	"pin_to_sibling_corner"	"PIN_TOPLEFT"
+	}		
+	
+	"ItemEffectMeterBG"
+	{
+		"ControlName"	"ImagePanel"	"fieldName"	"ItemEffectMeterBG"
+		"xpos"	"0"	"ypos"	"0"	"zpos"	"6"	"wide"	"35"	"tall"	"7"
+		"visible"	"1"	"enabled"	"1"
+		"border"	"sborder2"
+		"fillcolor"	"blank"		
+		"pin_to_sibling"	"ItemEffectMeter"		
+	}
 }

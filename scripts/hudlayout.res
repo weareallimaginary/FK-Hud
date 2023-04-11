@@ -16,8 +16,8 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"r98"	[$WIN32]
-		"ypos"	"0"	[$WIN32]
+		"xpos"	"c40"	[$WIN32]
+		"ypos"	"-15"	[$WIN32]
 		"wide"	"98"
 		"tall"	"480"
 	}
@@ -28,7 +28,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"0"
-		"ypos"	"0"
+		"ypos"	"-400"
 		"wide"	"f0"
 		"tall"	"480"
 	}	
@@ -192,7 +192,7 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"78"
+		"xpos"					"9999"
 		"ypos"					"r35"
 		"wide"					"116"
 		"tall"  				"180"
@@ -214,19 +214,8 @@
 	}
 	
 	
-	DisguiseStatus
-	{
-		"fieldName" "DisguiseStatus"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r70"	[$WIN32]
-		"xpos"		"50"	[$X360]
-		"ypos"		"330"	[$X360]
-		"wide"		"500"
-		"tall"		"200"
-		"TextFont"	"Default"	[$X360]
-	}
+DisguiseStatus
+	{	"fieldName" "DisguiseStatus"	"visible"	"1"	"enabled"	"1"	"xpos"	"100"		"ypos"	"0"	"wide"	"f0"	"tall"	"f0"	"zpos" "100"}
 
 	CMainTargetID
 	{
@@ -1011,7 +1000,7 @@
 		"fieldName" 	"HudMenuSpyDisguise"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-235"
+		"xpos"			"c-9235"
 		"ypos"			"c-52"
 		"ypos_hidef"	"c-42"
 		"ypos_lodef"	"c-42"

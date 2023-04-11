@@ -120,7 +120,6 @@ event HudLowAmmoPulseStop
 
 	StopEvent HudLowAmmoPulseLoop 0.0
 }
-
 //===========================================
 
 // Flash the medic charge hud when we have full charge
@@ -175,3 +174,18 @@ event HudTournament_MoveChatWindow
 }
 
 //===========================================
+
+event HudSpyDisguiseChanged{}
+event HudSpyDisguiseHide{}
+event HudSpyDisguiseFadeIn{}
+event HudSpyDisguiseFadeOut{}
+
+event ScopeRemoval
+{
+	Animate HudScope Position	   "6969 6969" Linear 0.0 0.0
+}
+
+event DamagedPlayer
+{
+	RunEvent ScopeRemoval				0.0
+}

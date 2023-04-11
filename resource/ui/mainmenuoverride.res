@@ -257,6 +257,22 @@
 		"border"		"noborder"
 		"image"				"replay/thumbnails/mainmenu/titlebarshadow"
 	}
+	"armor"
+	{
+		"ControlName"	"ctfImagePanel"
+		"fieldName"		"armor"
+		"xpos"		"9999"
+		"ypos"		"26"
+		"wide"		"0"
+		"tall"		"0"
+		"zpos"		"0"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"border"		"noborder"
+		"image"				"replay/thumbnails/armor"
+	}
 	"BGU2"
 	{
 		"ControlName"	"ctfImagePanel"

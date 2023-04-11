@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"0"	[$WIN32]
-		"ypos"			"0"	[$WIN32]
+		"xpos"			"c-207"	[$WIN32]
+		"ypos"			"30"	[$WIN32]
 		"wide"			"98"
 		"tall"			"480"
 		"MeterFG"		"White"
@@ -95,7 +95,7 @@
 		"tall"			"17"
 		"visible"		"1"
 		"alpha"			"185"
-		"image"					"replay/thumbnails/sidegradient"
+		"image"					"replay/thumbnails/sidegradient2"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
@@ -110,7 +110,7 @@
 		"tall"			"17"
 		"visible"		"1"
 		"alpha"			"205"
-		"image"					"replay/thumbnails/sidegradient"
+		"image"					"replay/thumbnails/sidegradient2"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}
@@ -125,7 +125,7 @@
 		"tall"			"1"
 		"visible"		"1"
 		"alpha"			"205"
-		"image"					"replay/thumbnails/sidegradient"
+		"image"					"replay/thumbnails/sidegradient2"
 		"enabled"		"1"
 		"scaleImage"	"1"	
 	}

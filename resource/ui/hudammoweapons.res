@@ -13,51 +13,6 @@
 		"xpos"			"9999"		
 	}
 	
-	"BG"
-	{
-		"ControlName"	"ctfImagePanel"
-		"fieldName"		"BG"
-		"xpos"			"-1"
-		"ypos"			"r27"
-		"zpos"			"4"
-		"wide"			"100"
-		"tall"			"34"
-		"visible"		"1"
-		"alpha"			"185"
-		"image"					"replay/thumbnails/sidegradient2"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-	}
-	"BG3"
-	{
-		"ControlName"	"ctfImagePanel"
-		"fieldName"		"BG3"
-		"xpos"			"-1"
-		"ypos"			"r27"
-		"zpos"			"4"
-		"wide"			"100"
-		"tall"			"34"
-		"visible"		"1"
-		"alpha"			"205"
-		"image"					"replay/thumbnails/sidegradient2"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-	}
-	"BG2"
-	{
-		"ControlName"	"ctfImagePanel"
-		"fieldName"		"BG2"
-		"xpos"			"-1"
-		"ypos"			"r27"
-		"zpos"			"4"
-		"wide"			"100"
-		"tall"			"1"
-		"visible"		"1"
-		"alpha"			"205"
-		"image"					"replay/thumbnails/sidegradient2"
-		"enabled"		"1"
-		"scaleImage"	"1"	
-	}
 	"AmmoInClip"
 	{
 		"ControlName"	"CExLabel"
